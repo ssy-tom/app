@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: #eaeaea;
+    min-width:1024px;
+}
+.auto-adapt{
+    height: auto;
+    width:100%;
+    padding-left: 200px;
+    box-sizing: border-box;
+}

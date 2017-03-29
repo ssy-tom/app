@@ -1,0 +1,250 @@
+
+.boxc {
+    width: 31.3333333%;
+    height: auto;
+    display: inline-block;
+    margin: 10px 1%;
+    cursor: pointer;
+}
+
+.boxc > li {
+    width: 100%;
+    height: 75px;
+    background-color: #000;
+    float: left;
+    margin-right: 5%;
+    position: relative;
+    color: #fff;
+}
+
+.boxc > li:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.boxc > li > a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+    font-size: 24px;
+}
+
+.boxc > li > img {
+    position: relative;
+    left: 138px;
+    top: 37px;
+}
+
+.boxc > li {
+
+    position: relative;
+
+}
+
+.boxc > li:after {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: linear-gradient(to left top, transparent 50%, rgba(0, 0, 0, 0.1) 0) no-repeat 100% 100%
+    / 1.6em 1.6em, linear-gradient(315deg, transparent 1.07em, rgba(0, 0, 0, 0.2) 0);
+    bottom: 0;
+    right: 0;
+
+}
+
+/*//左侧选择*/
+.select-name-parent {
+    height: 37px;
+    width: 100%;
+    text-align: center;
+    line-height: 37px;
+    color: #fff;
+    border-bottom: 1px solid #1c1b21;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+    background-color: #685d27;
+}
+
+
+.select-container::-webkit-scrollbar {
+    width:5px;
+    height:5px;
+}
+.select-container::-webkit-scrollbar-button    {
+    background-color:#7f7f7f;
+    height:10px;
+}
+.left-select-name::-webkit-scrollbar-track     {
+    background:#7f7f7f;
+}
+.select-container::-webkit-scrollbar-track-piece {
+    background-color: #000000;
+}
+.select-container::-webkit-scrollbar-thumb{
+    background:#7f7f7f;
+    border-radius:4px;
+}
+.select-container::-webkit-scrollbar-corner {
+    background:#82AFFF;
+}
+.select-container::-webkit-scrollbar-resizer  {
+    background:#FF0BEE;
+}
+
+.select-container {
+    height: auto;
+    width: 100%;
+}
+
+.every-item {
+    height: 37px;
+    width: 200px;
+    text-align: center;
+    line-height: 37px;
+    color: #fff;
+    /*border-bottom: 1px solid #1c1b21;*/
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .2s linear;
+}
+
+.every-item:hover {
+    background-color: #611c23;
+}
+
+.select-container {
+    width: 100%;
+    height: 450px;
+    overflow: auto;
+    background-color: #0e0c19;
+}
+
+.add-container {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+@font-face {
+    font-family: "fontss";
+    src: url(../../public/fonts/AkzidenzGrotesk-BoldCondAlt.otf);
+}
+
+.rigbotoom-2 {
+    width: 23%;
+    height: 100px;
+    float: left;
+    margin: 10px 1%;
+    cursor: pointer;
+}
+
+.rigbotoom-2 > li {
+    width: 100%;
+    height: 100px;
+    background-color: #bbb;
+    color: #fff;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 1%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.rigbotoom {
+    width: 23%;
+    height: 100px;
+    float: left;
+    margin: 10px 1%;
+    cursor: pointer;
+}
+
+.rigbotoom > li {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    color: #5AC66C;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 1%;
+}
+
+.rigbotoom > li:nth-of-type(1):hover {
+    /*background-color: #5AC66C;*/
+    transition: all 0.5s linear;
+    box-shadow: 0 0 10px #5AC66C;
+}
+
+.rigbotoom > li:nth-of-type(1):hover .shangtop > p {
+    color: #fff;
+}
+
+.rigbotoom > li:nth-of-type(1):hover .rqian > span {
+    color: #fff;
+}
+
+.rigbotoom > li:nth-of-type(1):hover .xiabotm > p {
+    color: #fff;
+}
+
+.rigbotoom > li:nth-of-type(1):hover .shangtop {
+    border-bottom: 1px solid #fff;
+}
+
+.rigbotoom > li > .shangtop {
+    height: 76px;
+    border-bottom: 1px solid #5AC66C;
+}
+
+.rigbotoom > li > .shangtop > p {
+    font-size: 18px;
+    line-height: 76px;
+    padding-left: 15px;
+    float: left;
+}
+
+.rigbotoom > li > .shangtop > .rqian {
+    float: right;
+    line-height: 76px;
+    padding-right: 15px;
+}
+
+.rigbotoom > li > .shangtop > .rqian > span {
+    font-size: 18px;
+    font-family: fontss;
+}
+
+.rigbotoom > li > .shangtop > .rqian > .jia {
+    font-size: 30px;
+}
+
+.rigbotoom > li > .shangtop > .rqian > .shu {
+    font-size: 30px;
+}
+
+.rigbotoom > li > .shangtop > .rqian > .fuhao {
+    /*color: #666666;*/
+}
+
+.xiabotm {
+    height: 24px;
+    cursor: help;
+}
+
+.xiabotm > p {
+    font-size: 10px;
+    padding-left: 15px;
+    line-height: 24px;
+    color: #000;
+}
+
+.super-teaching-circle{
+    background-color: #000;
+    color:#fff;
+    outline: none;
+    border: none;
+}

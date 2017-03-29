@@ -1,0 +1,254 @@
+/*蒙版*/
+.mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(163, 163, 163, 0.8);
+    position: fixed;
+    right: 0;
+    opacity: 0.8;
+    z-index: 100;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "fontss";
+    src: url(../../public/fonts/AkzidenzGrotesk-BoldCondAlt.otf);
+}
+
+/*.shade{*/
+/*width: 800px;*/
+/*height: 1000px;*/
+/*background-color: rgba(0,0,0,0.6);*/
+/*padding-top: 300px;*/
+/*display: none;*/
+/*}*/
+
+.pop-up {
+    width: 500px;
+    height: 318px;
+    background-color: #ffffff;
+    /*margin: 0 auto;*/
+    padding: 40px 100px 30px;
+    position: fixed;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -159px;
+    z-index: 101;
+}
+
+.shade-text {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.shade-line {
+    width: 300px;
+    height: 1px;
+    background-color: #999999;
+}
+
+.shade-middle {
+    width: 100%;
+    height: 55px;
+    margin-top: 30px;
+    padding: 0 20px 0;
+}
+
+.shade-speech {
+    font-size: 24px;
+    color: #333;
+    float: left;
+    margin-top: 17px;
+}
+
+.shade-money {
+    float: right;
+}
+
+.shade-money span {
+    font-family: "fontss";
+    color: #333;
+
+}
+
+.shade-money span:nth-of-type(1) {
+    font-size: 55px;
+
+}
+
+.shade-money span:nth-of-type(2) {
+    font-size: 28px;
+
+}
+
+.shade-btn {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.shade-btn input {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    float: left;
+    border: 0;
+    outline: 0;
+    font-family: "Microsoft YaHei";
+}
+
+.shade-btn input {
+    cursor: pointer;
+}
+
+.shade-btn input:nth-of-type(1) {
+    margin-right: 98px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.shade-btn input:nth-of-type(2) {
+    background-color: #eed63d;
+    color: #333;
+}
+
+/*弹出框*/
+/*.popup_box{*/
+/*width: 800px;*/
+/*height: 615px;*/
+/*position: fixed;*/
+/*top: 0;*/
+/*right: 0;*/
+/*}*/
+/*.popup_box_bg{*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*position: relative;*/
+/*background-color: rgba(0,0,0,0.4);*/
+/*}*/
+.popup {
+    width: 377px;
+    height: 350px;
+    background: #fff;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 101;
+    padding: 30px 75px;
+
+}
+
+.popup-height {
+    height: 400px;
+}
+
+.popup > p:first-child {
+    width: 142px;
+    height: 36px;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+    color: #333333;
+}
+
+.popup > form {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #333;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.popup > form > label {
+    width: 228px;
+    height: 40px;
+    margin-bottom: 8px;
+    display: table;
+}
+
+.label_div {
+    width: 60px;
+    height: 40px;
+    background-color: #EED63B;
+    text-align: center;
+    line-height: 40px;
+    color: #333;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.popup > form > label > input {
+    width: 167px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    background-color: #F3E275;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: #333;
+}
+
+.popup > form > label > select {
+    width: 167px;
+    height: 40px;
+    background: #F3E275;
+    border: none;
+    padding-left: 10px;
+    color: #333333;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("./444.png");
+    background-repeat: no-repeat;
+    background-position: 141px center;
+    font-size: 10px;
+    background-size: 11px;
+}
+
+.close {
+    width: 75px;
+    height: 30px;
+    background: #333333;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.popup > form > label:last-child {
+    margin-top: 30px;
+}
+
+.popup > form > label:last-child > input {
+    width: 75px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    background-color: #EED63B;
+    float: right;
+    color: #000;
+    font-size: 14px;
+}
+
+.exit:hover {
+    cursor: pointer;
+    color: #3a33d1;
+}
